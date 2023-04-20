@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - wall
+  - platform
   layers:
   - Default
   - TransparentFX
