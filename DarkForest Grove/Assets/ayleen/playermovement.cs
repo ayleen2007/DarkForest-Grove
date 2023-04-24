@@ -9,6 +9,12 @@ public class playermovement : MonoBehaviour
     private bool facingRight = true;
     private float moveDirection;
     public float jumpForce;
+    public LayerMask groundobjects;
+    public float checkRadius;
+
+    public bool isGrounded;
+    public Transform groundCheck;
+    public Transform ceilingCheck;
 
     private bool isJumping = false;
     // Start is called before the first frame update
@@ -29,6 +35,8 @@ public class playermovement : MonoBehaviour
     }
      private void FixedUpdate()
     {
+        //check if grounded
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundobjects);
         //move
         Move();
     }
@@ -60,7 +68,7 @@ public class playermovement : MonoBehaviour
     {
         moveDirection = Input.GetAxis("Horizontal"); //scale of -1 > 1
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             isJumping = true;
         }
