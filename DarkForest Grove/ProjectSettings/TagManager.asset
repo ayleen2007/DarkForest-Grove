@@ -8,6 +8,10 @@ TagManager:
   - wall
   - platform
   - Mycoin
+  - ceilingcheck
+  - groundcheck
+  - box
+  - obstacle
   layers:
   - Default
   - TransparentFX
