@@ -7,11 +7,10 @@ public class Bullet : MonoBehaviour
     public void OnCollisionEnter2D(Collision2D collision)
     {
         //enemies to take damage
-        if(collision.gameObject.TryGetComponent<Enemy>(out Enemy enemyComponent))
+        if (collision.gameObject.TryGetComponent<Enemy>(out Enemy enemyComponent))
         {
             enemyComponent.TakeDamage(1);
         }
-
         Destroy(gameObject);
     }
 }
