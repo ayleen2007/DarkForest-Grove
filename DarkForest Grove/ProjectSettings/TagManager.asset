@@ -12,6 +12,7 @@ TagManager:
   - groundcheck
   - box
   - obstacle
+  - powerup
   layers:
   - Default
   - TransparentFX
