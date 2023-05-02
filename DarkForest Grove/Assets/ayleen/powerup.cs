@@ -1,26 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PowerUp : MonoBehaviour
 {
     public GameObject pickupEffect;
-     void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        Debug.Log("collected");
+        if (other.gameObject.tag == "Player")
         {
             Pickup();
+
+
         }
     }
 
     void Pickup()
     {
-        Instantiate(pickupEffect, transform.position, transform.rotation);
+        Destroy(gameObject);
+      //  Instantiate(pickupEffect, transform.position, transform.rotation);
         //Spawn a cool effect
 
         //apply effect to the player
 
-        Destroy(gameObject);
+
     }
 
 }

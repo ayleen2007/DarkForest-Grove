@@ -455,7 +455,7 @@ PolygonCollider2D:
       - {x: -0.07554896, y: 0.5338424}
       - {x: -0.446527, y: 0.17054872}
       - {x: -0.53548914, y: 0.10164665}
-      - {x: -0.56664664, y: -0.04048916}
+      - {x: -0.43121916, y: -0.14883134}
       - {x: -0.09756516, y: -0.5160379}
       - {x: 0.024486654, y: -0.54150695}
       - {x: 0.14819145, y: -0.4716773}
@@ -476,6 +476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 432110d50f3e418498b456e592d725c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupEffect: {fileID: 0}
 --- !u!212 &1070191112
 SpriteRenderer:
   m_ObjectHideFlags: 0
