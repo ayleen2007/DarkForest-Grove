@@ -1820,7 +1820,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1848,7 +1848,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -1860,7 +1860,79 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -14345,10 +14417,10 @@ TextureImporter:
       env_mon_372: 21300744
       env_mon_275: 21300550
       env_mon_557: 21301114
-      env_mon_87: 21300174
+      env_mon_199: 21300398
       env_mon_550: 21301100
       env_mon_191: 21300382
-      env_mon_199: 21300398
+      env_mon_87: 21300174
       env_mon_253: 21300506
       env_mon_365: 21300730
       env_mon_576: 21301152
@@ -14609,23 +14681,23 @@ TextureImporter:
       env_mon_221: 21300442
       env_mon_567: 21301134
       env_mon_404: 21300808
-      env_mon_533: 21301066
+      env_mon_536: 21301072
       env_mon_126: 21300252
       env_mon_443: 21300886
       env_mon_59: 21300118
-      env_mon_140: 21300280
-      env_mon_574: 21301148
-      env_mon_536: 21301072
       env_mon_387: 21300774
-      env_mon_119: 21300238
+      env_mon_533: 21301066
+      env_mon_574: 21301148
       env_mon_519: 21301038
-      env_mon_303: 21300606
-      env_mon_229: 21300458
-      env_mon_580: 21301160
+      env_mon_119: 21300238
       env_mon_479: 21300958
+      env_mon_303: 21300606
+      env_mon_140: 21300280
+      env_mon_580: 21301160
       env_mon_256: 21300512
       env_mon_0: 21300000
       env_mon_122: 21300244
+      env_mon_229: 21300458
       env_mon_268: 21300536
       env_mon_398: 21300796
       env_mon_84: 21300168
