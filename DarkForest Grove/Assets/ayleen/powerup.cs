@@ -17,7 +17,7 @@ public class PowerUp : MonoBehaviour
     void Pickup()
     {
         Destroy(gameObject);
-      //  Instantiate(pickupEffect, transform.position, transform.rotation);
+        // Instantiate(pickupEffect, transform.position, transform.rotation);
         //Spawn a cool effect
 
         //apply effect to the player
