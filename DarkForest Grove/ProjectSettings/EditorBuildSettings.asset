@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/ayleen/Start Screen 1.unity
+    guid: d74a282b6f89fd948b5f3d58ed87b7d6
+  - enabled: 1
+    path: Assets/ayleen/ground.platform.unity
+    guid: f81669edfe23a4a4ea195de0123e945c
+  - enabled: 1
+    path: Assets/ayleen/End Screen.unity
+    guid: 59b7b16d2d483074b9293cc9b5766c17
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
