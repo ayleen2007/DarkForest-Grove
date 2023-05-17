@@ -6,7 +6,7 @@ public class playermovement : MonoBehaviour
 {
     public float moveSpeed;
     private Rigidbody2D rb;
-    private bool facingRight = true;
+    private bool facingRight = false;
     private float moveDirection;
     public float jumpForce;
     public LayerMask groundobjects;
