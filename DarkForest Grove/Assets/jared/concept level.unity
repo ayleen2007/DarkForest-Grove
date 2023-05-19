@@ -487,7 +487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39c235e1c2a44b9449be3f9038ada1c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portal: {fileID: 0}
+  portal: {fileID: 1865156875}
 --- !u!61 &410407966
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5810,7 +5810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39c235e1c2a44b9449be3f9038ada1c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portal: {fileID: 0}
+  portal: {fileID: 410407964}
 --- !u!61 &1865156879
 BoxCollider2D:
   m_ObjectHideFlags: 0
