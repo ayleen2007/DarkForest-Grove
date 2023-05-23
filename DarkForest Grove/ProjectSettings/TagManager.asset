@@ -13,6 +13,8 @@ TagManager:
   - box
   - obstacle
   - powerup
+  - Mycoins
+  - Enemy
   layers:
   - Default
   - TransparentFX

@@ -22,6 +22,7 @@ public class score : MonoBehaviour
             Destroy(Coin.gameObject);
             MyscoreText.text = "Score" + ScoreNum;
         }
+        
     }
     // Update is called once per frame
     void Update()
