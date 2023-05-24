@@ -534,6 +534,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< Updated upstream:DarkForest Grove/Assets/ayleen/ground.platform.unity
+=======
+    - target: {fileID: 2704256357587943735, guid: 81ce8cc9031f9344ea0e0f7196341b11, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2704256357733878965, guid: 81ce8cc9031f9344ea0e0f7196341b11, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2704256358634670319, guid: 81ce8cc9031f9344ea0e0f7196341b11, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2704256358743858303, guid: 81ce8cc9031f9344ea0e0f7196341b11, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2704256364690024129, guid: 81ce8cc9031f9344ea0e0f7196341b11, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes:DarkForest Grove/Assets/ayleen/game/ground.platform.unity
     - target: {fileID: 2843411519274047075, guid: 81ce8cc9031f9344ea0e0f7196341b11, type: 3}
       propertyPath: m_Name
       value: Peasant
